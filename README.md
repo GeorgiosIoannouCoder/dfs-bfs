@@ -60,6 +60,14 @@
 - **Depth-First Search (DFS) and Breadth-First Search (BFS) are two techniques of traversing graphs and trees. DFS explores a graph or tree by diving as deeply as possible along a branch before backtracking, making it well-suited for tasks like finding paths and topological sorting. It is implemented using the stack data structure and recursion. Arrays/Lists can be used to implement the stack data structure.**
 - **BFS systematically explores all neighbors of a node before moving to their neighbors, making it ideal for finding the shortest path in unweighted graphs and efficiently visiting nodes level by level. BFS employs a queue to maintain a first-in-first-out order, allowing them to serve different graph exploration needs.**
 
+## Problem Statement
+
+1. Given the 2D-Grid in the below Figure, start at the black 1 position and reach the goal at the red 15 position. Find the path to the goal using:
+   1. Depth First Search (DFS)
+   2. Breadth First Search (BFS)
+
+<img src="2d_grid.png" alt="Grid" width="" height="">
+
 ### Key Features
 
 1. **Usually we see Depth-First Search (DFS) and Breadth-First Search (BFS) on a Tree. However, they can also be used in a graph or grid which is what we do here.**
@@ -134,7 +142,7 @@
 5. Create virtual environment in the cloned repository folder
 
    ```sh
-   python -m venv .dfs-bfst-prime-venv
+   python -m venv .dfs-bfs-venv
    ```
 
 6. Activate the virtual environment (Windows OR Mac/Linux):
@@ -180,17 +188,9 @@
 
 ## Usage
 
-1. Define a grid, starting cell, goal cell, and traversal directions from the user, use Depth First Search (DFS) or Breadth First Search (BFS) to find the goal cell.
+1. Define/Input a grid, starting cell, goal cell, and traversal directions, use Depth First Search (DFS) or Breadth First Search (BFS) to find the goal cell in the 2D-Grid.
 2. You can use the two notebooks above for both [Depth First Search (DFS)](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_dfs.ipynb) and [Breadth First Search (BFS)](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_bfs.ipynb)
-3. The two notebooks above were coded with the following problem statement in mind.
-
-## Problem Statement
-
-1. Given the 2D grid in the below Figure, start at the black 1 position and reach the goal at the red 15 position. Find the path to the goal using:
-   1. Depth First Search (DFS)
-   2. Breadth First Search (BFS)
-
-<img src="2d_grid.png" alt="Grid" width="" height="">
+3. The two notebooks above were coded having in mind the problem statement mentioned in the introduction.
 
 ## Report
 
