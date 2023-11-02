@@ -18,7 +18,7 @@
 <h3 align="center">Depth First Search - Breadth First Search</h3>
 
   <p align="center">
-    Depth First Search - Breadth First Search On A 2D-Grid allows people to traverse and search a particular number in a 2D-Grid.
+    Depth First Search - Breadth First Search On A 2D-Grid allows people to traverse and search for a particular cell/node/number in a 2D-Grid.
     <br />
     <a href="https://github.com/GeorgiosIoannouCoder/dfs-bfs"><strong>Explore the docs »</strong></a>
     <br />
