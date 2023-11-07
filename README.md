@@ -18,7 +18,7 @@
 <h3 align="center">Depth First Search - Breadth First Search</h3>
 
   <p align="center">
-    Depth First Search - Breadth First Search On A 2D-Grid allows people to traverse and search for a particular cell/node/number in a 2D-Grid.
+    Depth First Search - Breadth First Search On A 2D-Grid allows people to traverse and search for a particular cell/vertex/node/number in a 2D-Grid.
     <br />
     <a href="https://github.com/GeorgiosIoannouCoder/dfs-bfs"><strong>Explore the docs »</strong></a>
     <br />
@@ -34,6 +34,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+         <li><a href="#problem-statement">Problem Statement</a></li>
         <li><a href="#key-features">Key Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -42,10 +43,11 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+     <li><a href="#reports">Reports</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -60,7 +62,7 @@
 - **Depth-First Search (DFS) and Breadth-First Search (BFS) are two techniques of traversing graphs and trees. DFS explores a graph or tree by diving as deeply as possible along a branch before backtracking, making it well-suited for tasks like finding paths and topological sorting. It is implemented using the stack data structure and recursion. Arrays/Lists can be used to implement the stack data structure.**
 - **BFS systematically explores all neighbors of a node before moving to their neighbors, making it ideal for finding the shortest path in unweighted graphs and efficiently visiting nodes level by level. BFS employs a queue to maintain a first-in-first-out order, allowing them to serve different graph exploration needs.**
 
-## Problem Statement
+### Problem Statement
 
 1. Given the 2D-Grid in the below Figure, start at the black 1 position and reach the goal at the red 15 position. Find the path to the goal using:
    1. Depth First Search (DFS)
@@ -113,7 +115,7 @@
    - Mac: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
    - Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 
-#### SetUp
+### Setup
 
 1. Navigate to the directory where you want to clone/run/save the application
 
@@ -183,6 +185,8 @@
    ```
 
 11. Select the .dfs-bfs-venv kernel to run the Jupyter Notebook.
+    
+12. Run the two notebooks found in this repository.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
@@ -190,11 +194,12 @@
 
 1. Define/Input a grid, starting cell, goal cell, and traversal directions, use Depth First Search (DFS) or Breadth First Search (BFS) to find the goal cell in the 2D-Grid.
 2. You can use the two notebooks above for both [Depth First Search (DFS)](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_dfs.ipynb) and [Breadth First Search (BFS)](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_bfs.ipynb)
-3. The two notebooks above were coded having in mind the problem statement mentioned in the introduction.
+3. The two notebooks above were coded having in mind the [problem statement mentioned in the introduction](https://github.com/GeorgiosIoannouCoder/dfs-bfs#problem-statement).
 
-## Report
+## Reports
 
-1. You can find the report for this project [here](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_Report_HW_2-1.pdf) where it shows step by step how Depth First Search (DFS) and Breadth First Search (BFS) work to find the goal cell.
+1. You can find the first report for this project [here](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_Report_HW_2-1.pdf) where it shows step by step how Depth First Search (DFS) and Breadth First Search (BFS) work to find the goal cell.
+2. You can find the second report for this project [here](https://github.com/GeorgiosIoannouCoder/dfs-bfs/blob/main/Ioannou_Georgios_Report_HW_2-2.pdf) where it shows the time and space complexity of both Depth First Search (DFS) and Breadth First Search (BFS).
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
